@@ -71,7 +71,7 @@ function saveTrainingData(score) {
 function predictSneakerCombinations() {
   const data = JSON.parse(window.localStorage.trainingData)
   if (data.length < 20) {
-    sneakers.innerHTML = "you need at least 20 datapoints"
+    sneakers.innerHTML = "Je hebt minstents 20 beoordeling nodig ..."
     return;
   }
 
