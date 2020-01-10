@@ -31,7 +31,7 @@ stars.forEach((star, i) => {
 
 function flushDataPoints() {
   window.localStorage.removeItem("trainingData")
-  countDataPoints()
+  location.reload()
 }
 flush.addEventListener("click", flushDataPoints)
 
